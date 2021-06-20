@@ -59,4 +59,4 @@ yarn build
 yarn start
 ```
 
-That is all, the compiled files will be found under `/build` ar the root. Running `yarn start` will start the app from the compiled files.
+That is all, the compiled files will be found under `/build` at the root. Running `yarn start` will start the app from the compiled files.
