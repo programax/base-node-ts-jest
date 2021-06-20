@@ -13,10 +13,9 @@
     "dev": "nodemon",
     "start": "node build/index.js",
     "build": "rimraf ./build && tsc",
-    "check": "yarn lint && tsc",
+    "check": "yarn lint && yarn type-check",
     "type-check": "tsc --noemit",
     "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint --fix --ext .ts .",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watchAll"
